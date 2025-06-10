@@ -1,0 +1,156 @@
+/* Resetando estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5e6f5;
+}
+
+/* Cabeçalho */
+header {
+    position: relative;
+    height: 100vh;
+    background-image: url('img/fundo-aniversario.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 2s ease-out;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .content {
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Linha do Tempo */
+#timeline {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+#timeline .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#timeline h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.timeline-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timeline-item {
+    width: 30%;
+    margin: 20px 0;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+.timeline-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.timeline-item h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+}
+
+.timeline-item p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Galeria */
+#gallery {
+    background-color: #f2d9e6;
+    padding: 50px 0;
+}
+
+#gallery .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.gallery-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-items img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-items img:hover {
+    transform: scale(1.1);
+}
+
+/* Mensagem Final */
+#final-message {
+    background-color: #d8a5d3;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#final-message h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#final-message p {
+    font-size: 1.5em;
+}
+
+/* Animações */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}

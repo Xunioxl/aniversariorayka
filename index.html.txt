@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa de Aniversário</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="header">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Feliz Aniversário, meu amor!</h1>
+            <p>Uma jornada de amor que começou aqui...</p>
+        </div>
+    </header>
+
+    <!-- Linha do Tempo do Relacionamento -->
+    <section id="timeline">
+        <div class="container">
+            <h2>A Nossa História</h2>
+            <div class="timeline-items">
+                <div class="timeline-item">
+                    <img src="img/primeiro-encontro.jpg" alt="Primeiro Encontro">
+                    <div class="timeline-text">
+                        <h3>Nosso Primeiro Encontro</h3>
+                        <p>Foi o começo de tudo. Um momento que ficará para sempre em nossos corações.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="img/viagem.jpg" alt="Viagem Juntos">
+                    <div class="timeline-text">
+                        <h3>Viagem Inesquecível</h3>
+                        <p>Uma viagem que nos trouxe ainda mais perto e nos fez criar memórias que jamais esqueceremos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <img src="img/aniversario.jpg" alt="Aniversário Juntos">
+                    <div class="timeline-text">
+                        <h3>Nosso Último Aniversário</h3>
+                        <p>Celebrando mais um ano juntos. Muitas mais memórias estão por vir!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria de Memórias -->
+    <section id="gallery">
+        <div class="container">
+            <h2>Galeria de Memórias</h2>
+            <div class="gallery-items">
+                <img src="img/momento1.jpg" alt="Memória 1">
+                <img src="img/momento2.jpg" alt="Memória 2">
+                <img src="img/momento3.jpg" alt="Memória 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Mensagem Final -->
+    <section id="final-message">
+        <div class="container">
+            <h2>Eu Te Amo</h2>
+            <p>Você é a pessoa mais especial da minha vida. Te amo hoje e para sempre!</p>
+        </div>
+    </section>
+
+    <!-- Música de Fundo -->
+    <audio autoplay loop>
+        <source src="audio/musica-aniversario.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
